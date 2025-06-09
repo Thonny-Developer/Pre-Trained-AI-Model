@@ -10,7 +10,7 @@ The model should accept commands and then execute the necessary commands
 Install libraries with pip install
 
 ```bash
-  pip install torch transformers scikit-learn
+pip install torch transformers scikit-learn
 ```
 
 Additionally, if you are working in Jupyter or want to see the progress of the training:
