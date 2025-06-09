@@ -52,12 +52,11 @@ def extract_arguments(command, text):
 
     return args
 
-# Основная функция
 def process_input(text):
     command = predict_command(text)
     arguments = extract_arguments(command, text)
     return {"command": command, "arguments": arguments}
 
 while True:
-    inp = input("Хуй: ")
+    inp = input("Введите запрос: ")
     print(process_input(inp))
